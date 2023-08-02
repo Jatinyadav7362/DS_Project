@@ -61,7 +61,7 @@ def details():
 
 # to delete data
 def delete_name():
-    name=input("Enter the name of the student to delete data permanently or press(no)")
+    name=input("Enter the name of the student to delete data permanently or type no")
     if(name!='no'):
         tfp=open('tempfile.txt','w')
         with open('student.txt',"r+") as fptr:
