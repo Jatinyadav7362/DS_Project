@@ -131,7 +131,7 @@ flag=0
 while flag==0:
     print("Enter your choice:")
     print("Press  : 1.SignUp   and    2.SignIn")
-    choice=int(input("Type Here:"))
+    choice=int(input("Enter your choice:"))
     if choice==1:
         user_name=input("Enter  user_name :")
         pass_word=input("Enter password :")
